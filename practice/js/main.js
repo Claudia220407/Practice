@@ -140,3 +140,31 @@ const add = document.querySelector('.add');
 const subtract = document.querySelector('.subtract');
 const multiply = document.querySelector('.multiply');
 const divide = document.querySelector('.divide');
+const inputOne = document.querySelector('.number1');
+const inputTwo = document.querySelector('.number2');
+const calculate = document.querySelector('.calculate');
+const answerField = document.querySelector('.answer');
+
+
+add.addEventListener('click',function(){
+    let x = inputOne + inputTwo;
+    console.log(x);
+});
+
+subtract.addEventListener('click',function(){
+    let x = inputOne - inputTwo;
+    console.log(x);
+});
+
+multiply.addEventListener('click',function(){
+    let x = inputOne * inputTwo;
+    console.log(x);
+});
+
+divide.addEventListener('click',function(){
+    let x = inputOne / inputTwo;
+    console.log(x);
+});
+
+
+
